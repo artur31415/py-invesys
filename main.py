@@ -246,7 +246,7 @@ root.b_load_element.pack()
 root.b_load_element.place(height=25, width=75, x=157, y=260)
 
 #button update
-root.b_update_element = tk.Button(root, text="update", command = lambda: updateElements(root.lb_some_data))
+root.b_update_element = tk.Button(root, text="update", command = lambda: updateElements())
 root.b_update_element.pack()
 root.b_update_element.place(height=25, width=75, x=3, y=288)
 
